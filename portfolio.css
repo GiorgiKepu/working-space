@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background-color:#e1eedd;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-content > img {
+    max-width: 70px;
+    max-height: 35px;
+    margin-top: 25px;
+}
+
+.navigation {
+    display: flex;
+    gap: 40px;
+    margin-top: 25px;
+}
+
+.navigation > a {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+     'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.navigation > a:hover {
+    transition: 0.7s;
+    color: #943d34;
+}
+
+.About-Me {
+    background-color: #fefbe9;
+    margin-top: 0;
+    padding-top: 130px;
+    transition: .3s;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.main-content {
+    padding-top: 170px;
+}
+
+.About-Me > img {
+    max-width: 500px;
+    max-height: 500px;
+    border-radius: 75px;
+    border: black;
+    margin-bottom: 30px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.main-content > h1 {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.main-content > p {
+    font-family: sans-serif;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.next-content {
+    background-color: #fffbf0;
+    max-width: 100%;
+    
+}
